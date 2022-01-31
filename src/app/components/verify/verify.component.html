@@ -1,0 +1,7 @@
+<div *ngIf="verify" >
+    <input type="text" id="fname" name="fname"  #vverify required>
+    <button (click)="verifyfn(vverify.value)">Verify</button>
+</div>
+<div *ngIf="verified" >
+    <h1 style="color: aliceblue;">Verified succesfully</h1>
+</div>

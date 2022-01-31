@@ -1,0 +1,37 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+  background-color: #1E1E1E;
+}
+.card{
+  background-color: #1E1E1E;
+  border: none;
+}
+.container{
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+  }
+  h1{
+    font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace; 
+    text-align: center;
+    // color: white;
+  }
+  button{
+    background-color: white; 
+    color: black; 
+    border: 2px solid #000000;
+    padding: 25px 42px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 30px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
