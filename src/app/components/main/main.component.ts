@@ -74,8 +74,8 @@ dispense(){
     "key": 'rzp_test_yQoV71BTUFXCas', // Enter the Key ID generated from the Dashboard
     "amount": cost, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise or INR 500.
     "currency": "INR",
-    "name": "Coffee",
-    "description": "pay for coffee",
+    "name": "Soup",
+    "description": "pay for Soup",
     "image": "https://i.pinimg.com/474x/ce/60/cf/ce60cf6c3f5d3ab57136565b104f163b.jpg",
     "handler": function (response: { razorpay_payment_id: any; }) {
         localStorage.setItem("paid",dataes)
@@ -85,8 +85,8 @@ dispense(){
         console.log("paid")
     },
     "prefill": {
-        "name": "Milano Coffee",
-        "email": "hello@milanocoffee.in",
+        "name": "Noobs Code",
+        "email": "hello@noobscode.com",
         "contact": "123456789",
         'method': 'upi',
     },
