@@ -23,7 +23,7 @@ export class MainComponent implements OnInit {
         "currency": "INR",
         "name": "Coffee",
         "description": "pay for coffee",
-        "image": "https://i.pinimg.com/474x/ce/60/cf/ce60cf6c3f5d3ab57136565b104f163b.jpg",
+        "image": "https://raw.githubusercontent.com/iamtheretronerd/iamtheretronerd.github.io/main/Untitled%20design.png",
         "handler": function (response: { razorpay_payment_id: any; }) {
             localStorage.setItem("paid",dataes)
             localStorage.setItem("uid",newid)
@@ -76,7 +76,7 @@ dispense(){
     "currency": "INR",
     "name": "Soup",
     "description": "pay for Soup",
-    "image": "https://i.pinimg.com/474x/ce/60/cf/ce60cf6c3f5d3ab57136565b104f163b.jpg",
+    "image": "https://raw.githubusercontent.com/iamtheretronerd/iamtheretronerd.github.io/main/Untitled%20design.png",
     "handler": function (response: { razorpay_payment_id: any; }) {
         localStorage.setItem("paid",dataes)
         localStorage.setItem("uid",newid)
