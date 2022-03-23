@@ -18,7 +18,7 @@ export class MainComponent implements OnInit {
 
   title = 'client';
     options = {
-        "key": '5rivTmzmIAARcIQkqlfYuxtL', // Enter the Key ID generated from the Dashboard
+        "key": 'rzp_live_3An6GtWmU1mL16', // Enter the Key ID generated from the Dashboard
         "amount": cost, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise or INR 500.
         "currency": "INR",
         "name": "Coffee",
@@ -71,7 +71,7 @@ export class MainComponent implements OnInit {
 
 dispense(){
   this.options = {
-    "key": 'rzp_test_yQoV71BTUFXCas', // Enter the Key ID generated from the Dashboard
+    "key": 'rzp_live_3An6GtWmU1mL16', // Enter the Key ID generated from the Dashboard
     "amount": cost, // Amount is in currency subunits. Default currency is INR. Hence, 50000 refers to 50000 paise or INR 500.
     "currency": "INR",
     "name": "Soup",
