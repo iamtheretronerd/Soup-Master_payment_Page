@@ -48,7 +48,9 @@
  .accordion details:not([open]) {
     height: 5%;
   }
-
+//  .accordion details[open] {
+//     height: 300%;
+//   }
  .accordion details summary {
     padding: 5px;
     padding-top: 0;
