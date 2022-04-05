@@ -1,0 +1,127 @@
+ body{
+    font-family: "Muli", sans-serif;
+    color: #828282;
+    background: #f9f9f9;
+  }
+ h1 {
+    font-size: 60px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-align: center;
+    background-color: #07a;
+    -webkit-background-clip: text;
+            background-clip: text;
+    color: transparent;
+    text-shadow: rgba(255, 255, 255, 0.5) 0px 3px 3px;
+  }
+ .more-info {
+    text-align: center;
+    margin-bottom: 40px;
+  }
+ .more-info a {
+    color: #828282;
+    transition: all 0.6s ease;
+  }
+ .more-info a:hover {
+    color: #07a;
+  }
+ .accordion {
+    width: 500px;
+    height: 400px;
+    position: relative;
+    margin: 0 auto;
+  }
+ .accordion details {
+    font-size: 18px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    background: #f9f9f9;
+    box-shadow: 4px 4px 4px 0px rgba(0, 119, 170, 0.07) inset, -4px -4px 4px 0px white inset;
+    cursor: pointer;
+    transition: all 0.6s ease;
+  }
+ .accordion details.with-code[open] {
+    height: 100%;
+  }
+ .accordion details:not([open]) {
+    height: 5%;
+  }
+
+ .accordion details summary {
+    padding: 5px;
+    padding-top: 0;
+    outline: none;
+  }
+ .accordion details .tag {
+    color: #07a;
+    font-weight: 700;
+  }
+ .accordion details hr {
+    border: 0;
+    height: 2px;
+    background-image: -webkit-linear-gradient(left, white, rgba(0, 119, 170, 0.07), white);
+  }
+ .accordion details p {
+    font-size: 16px;
+    line-height: 1.2em;
+    cursor: auto;
+    -webkit-animation: appear 1s ease;
+            animation: appear 1s ease;
+  }
+ .accordion details p.note {
+    padding: 10px;
+    background: rgba(0, 119, 170, 0.07);
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 119, 170, 0.07) inset, -4px -4px 4px 0px white inset;
+  }
+ .accordion details pre {
+    font-size: 16px;
+    padding: 20px;
+    cursor: auto;
+    border-radius: 15px;
+    box-shadow: 4px 4px 4px 0px rgba(0, 119, 170, 0.07), -4px -4px 4px 0px white;
+    -webkit-animation: appear 1.5s ease;
+            animation: appear 1.5s ease;
+  }
+ .accordion details pre .event-listener {
+    color: #dd4a68;
+  }
+ .accordion details pre .string {
+    color: #690;
+  }
+ .accordion details pre .keyword {
+    color: #07a;
+  }
+  
+  @-webkit-keyframes appear {
+    0%, 50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes appear {
+    0%, 50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  .fa-instagram {
+    position: absolute;
+    color: #828282;
+    top: 3%;
+    right: 2%;
+    font-size: 38px;
+    transition: all 0.6s ease;
+    cursor: pointer;
+  }
+  .fa-instagram:hover {
+    color: #07a;
+    font-size: 42px;
+  }

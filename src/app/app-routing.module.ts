@@ -1,3 +1,4 @@
+import { HomeComponent } from './components/home/home.component';
 import { ErrorComponent } from './components/error/error.component';
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
@@ -6,6 +7,7 @@ import { DispenseComponent } from './components/dispense/dispense.component';
 import { VerifyComponent } from './components/verify/verify.component';
 
 const routes: Routes = [
+  { path: '', component: HomeComponent},
   { path: 'dispense', component: DispenseComponent},
   { path: 'main', component: MainComponent},
   { path: 'main/:id', component: MainComponent},

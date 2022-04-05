@@ -14,6 +14,7 @@ import { environment } from '../environments/environment';
 import { MainComponent } from './components/main/main.component';
 import { VerifyComponent } from './components/verify/verify.component';
 import { ErrorComponent } from './components/error/error.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { ErrorComponent } from './components/error/error.component';
     MainComponent,
     DispenseComponent,
     VerifyComponent,
-    ErrorComponent
+    ErrorComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
